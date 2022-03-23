@@ -23,15 +23,15 @@ create a repo and git clone it to your local machine, npm install express, doten
 Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Name of feature: ________________________________
+Name of feature: ______________Everything__________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: ___All night__
 
-Start time: _____
+Start time: __2pm___
 
-Finish time: _____
+Finish time: __9pm___
 
-Actual time needed to complete: _____
+Actual time needed to complete: __All Night___
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
