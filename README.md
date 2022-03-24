@@ -36,6 +36,16 @@ Finish time: __9pm___
 
 Actual time needed to complete: __All Night___
 
+Name of feature: ______________Everything__________________
+
+Estimate of time needed to complete: ___3hrs__
+
+Start time: __2:30pm___
+
+Finish time: __5:30pm___
+
+Actual time needed to complete: __3hrs___
+
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 Tai is a savior. 
