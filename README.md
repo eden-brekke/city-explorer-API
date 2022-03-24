@@ -15,7 +15,9 @@ create a repo and git clone it to your local machine, npm install express, doten
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 ![WRRC 1](lab6WRRC.png)
-![WRRC 2](22March2022_WRRC_withElla.png);
+![WRRC 2](22March2022_WRRC_withElla.png)
+![WRRC 3](23March2022WRRCwithRyan.png)
+
 
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
@@ -34,7 +36,18 @@ Finish time: __9pm___
 
 Actual time needed to complete: __All Night___
 
+Name of feature: ______________Everything__________________
+
+Estimate of time needed to complete: ___3hrs__
+
+Start time: __2:30pm___
+
+Finish time: __5:30pm___
+
+Actual time needed to complete: __3hrs___
+
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 Tai is a savior. 
 Ella is a saint. 
+
