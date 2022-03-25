@@ -14,9 +14,14 @@ create a repo and git clone it to your local machine, npm install express, doten
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+Day 1
 ![WRRC 1](lab6WRRC.png)
+Day 2
 ![WRRC 2](22March2022_WRRC_withElla.png)
+Day 3
 ![WRRC 3](23March2022WRRCwithRyan.png)
+Day 4
+![WRRC 4](24March2022W_WRRCwithCole.png);
 
 
 ## Change Log
