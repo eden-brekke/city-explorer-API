@@ -21,7 +21,9 @@ Day 2
 Day 3
 ![WRRC 3](23March2022WRRCwithRyan.png)
 Day 4
-![WRRC 4](24March2022W_WRRCwithCole.png);
+![WRRC 4](24March2022_WRRCwithCole.png)
+Day 5
+![WRRC 5](25March2022_WRRC_withJames.png)
 
 
 ## Change Log

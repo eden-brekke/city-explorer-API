@@ -1,41 +1,29 @@
 'use strict';
 
-console.log('My First Server');
-//REQUIRE
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const getWeather = require('./modules/Weather');
-const getMovies = require('./modules/Movies');
 
-//define port and prove that our .env file works
+const weather = require('./modules/weather.js');
+const getMovies = require('./modules/movies');
 const PORT = process.env.PORT || 3002;
 
-//Instantiate express server by calling express
 const app = express();
 
-//USE
 app.use(cors());
 
-//ROUTES
-app.get('/', (request, response) => {
-  response.send('Welcome to City Explorer Server');
-});
-
-app.get('/weather', getWeather);
-
+app.get('/weather', weatherHandler);
 app.get('/movies', getMovies);
 
-app.get('*', (request, response) => {
-  response.status(404).send('this is not the page you are looking for');
-});
+function weatherHandler(request, response) {
+  const city = request.query.city;
+  weather(city)
+    .then(summaries => response.send(summaries))
+    .catch((error) => {
+      console.error(error);
+      response.status(200).send('Sorry. Something went wrong!');
+    });
+}
 
-//ERRORS
-app.use((error, request, response, next) => {
-  response.status(500).send(error.message);
-});
 
-
-//LISTEN
-app.listen(PORT, () => console.log(`listening on port ${PORT}`));
-
+app.listen(PORT, () => console.log(`Server up on ${PORT}`));
